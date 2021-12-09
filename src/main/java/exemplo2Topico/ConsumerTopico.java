@@ -32,9 +32,7 @@ public class ConsumerTopico {
     }
 
     public static void main(String[] args) throws JMSException {
-        while (true) {
-            consumir();
-        }
+        while (true) {  consumir();  }
     }
 
 }
