@@ -31,8 +31,7 @@ public class ProducerFila {
     public static void main(String[] args) throws JMSException {
     	String msg = "HELLO WORLD!   \n msg enviada para a fila " ;
     	if (args != null && args.length>0 ) {    		
-    	   msg = args[0] + "  \n FILA = ";
-    	}
+    	   msg = args[0] + "  \n FILA = ";    	}
         envia(msg);
     }
 }
